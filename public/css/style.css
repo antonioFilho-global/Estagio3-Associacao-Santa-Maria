@@ -1,0 +1,47 @@
+.navegador nav, footer {
+	background-color: purple;
+	/* background-image: linear-gradient(rgb(237, 199, 247), rgb(255, 255, 255)); */
+} 
+
+#menu{
+	float: right;
+	margin-top: 5px;
+}
+
+
+/*Faz auteração da cor quando o mouse passa nos links dentro do menu*/
+#menu a:hover{
+	background-color: rgba(245, 187, 235, 0.4);
+	color:#0e1a12;	
+}
+
+#main{
+	padding: 50px;
+	/* gradiente de azul */
+	/* background: linear-gradient(135deg,#35b8b0 0%, #1c799d 100%); */
+	background-image: linear-gradient(rgb(212, 54, 252), rgb(255, 255, 255));
+}
+/* usado no formulário, para que nao fique em baixo da nav  */
+#meio {
+	padding: 50px;
+}
+
+/* Tirando os espaçamentos padrões de toda 
+a pagina com o seletor *  */
+*{
+	margin: 0;
+	padding: 0;	
+	font-family: Helvetica, Arial;
+
+}
+
+nav{
+	min-height:40px;
+	margin-bottom: 0;	
+}
+
+
+footer p{
+	color:white;
+	
+}
