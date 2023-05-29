@@ -26,6 +26,13 @@
 	padding: 50px;
 }
 
+.card {
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave de 0.3 segundos */
+}
+  
+.card:hover {
+    transform: scale(1.05); /* Aplica uma escala de 105% ao passar o mouse */
+}
 /* Tirando os espaçamentos padrões de toda 
 a pagina com o seletor *  */
 *{
