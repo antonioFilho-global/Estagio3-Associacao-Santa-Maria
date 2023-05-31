@@ -1,6 +1,5 @@
 .navegador nav, footer {
-	background-color: purple;
-	/* background-image: linear-gradient(rgb(237, 199, 247), rgb(255, 255, 255)); */
+	background-color: rgba(106, 27, 118);
 } 
 
 #menu{
@@ -17,9 +16,8 @@
 
 #main{
 	padding: 50px;
-	/* gradiente de azul */
-	/* background: linear-gradient(135deg,#35b8b0 0%, #1c799d 100%); */
-	background-image: linear-gradient(rgb(212, 54, 252), rgb(255, 255, 255));
+	background-image: linear-gradient(rgb(212, 136, 188), rgb(255, 255, 255));
+	/* background-image: linear-gradient(rgb(212, 54, 252), rgb(255, 255, 255)); */
 }
 /* usado no formulário, para que nao fique em baixo da nav  */
 #meio {
@@ -49,6 +47,5 @@ nav{
 
 
 footer p{
-	color:white;
-	
+	color:white;	
 }
