@@ -24,6 +24,55 @@
 	padding: 25px;
 }
 
+/* Fale Conosco */
+#faleConosco {
+	padding: 25px;
+}
+
+.faleConosco .row {
+	display: flex;
+	justify-content: center;
+}
+
+.faleConosco .border {
+	width: 25%;
+	padding: 10px;
+	margin: 2em;
+	border-radius: 0.5em;
+}
+
+.faleConosco a {
+	text-decoration:none
+}
+
+.faleConosco .border i {
+	font-size: 15px;
+}
+
+.border .bi-instagram {
+	color: #C8397C;
+}
+
+.border .bi-facebook {
+	color: #1459dc;
+}
+
+.border .bi-whatsapp {
+	color: #25D366;
+}
+
+.border .bi-telephone {
+	color: #212529;
+} */
+
+.border .bi-envelope {
+	color: #BB201D;
+}
+
+.border .bi-map {
+	color: #000000;
+}
+
 .card {
     transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave de 0.3 segundos */
 }
