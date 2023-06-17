@@ -19,14 +19,32 @@
 	background-image: linear-gradient(rgb(212, 136, 188), rgb(255, 255, 255));
 	/* background-image: linear-gradient(rgb(212, 54, 252), rgb(255, 255, 255)); */
 }
+
+#main h1 {
+	color:#9F3983;
+}
+
 /* usado no formulário, para que nao fique em baixo da nav  */
 #meio {
 	padding: 25px;
 }
 
+#meio h1 {
+	color:#9F3983;
+}
+
+#meio h5 {
+	color:#9F3983;
+}
+
+
 /* Fale Conosco */
 #faleConosco {
 	padding: 25px;
+}
+
+#faleConosco h1 {
+	color:#9F3983;
 }
 
 .faleConosco .row {
