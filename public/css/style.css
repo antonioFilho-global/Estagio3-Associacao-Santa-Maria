@@ -81,7 +81,7 @@
 
 .border .bi-telephone {
 	color: #212529;
-} */
+}
 
 .border .bi-envelope {
 	color: #BB201D;
@@ -91,6 +91,10 @@
 	color: #000000;
 }
 
+/* Scroll automatico */
+html {
+	scroll-behavior: smooth;
+}
 .card {
     transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave de 0.3 segundos */
 }

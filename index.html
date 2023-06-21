@@ -34,23 +34,23 @@
 				<!-- tag ul cria lista nao numerada -->
 				<!--ml-md-auto Faz o alinhamento dos links a direita -->
 				<ul class="navbar-nav ml-md-auto">
-					<li class="nav-item active">
+					<!-- <li class="nav-item active">
 						<a class="nav-link" href="#">
 							<h2>Home</h2>
 						</a>
-					</li>
+					</li> -->
 					<li class="nav-item active">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#quemSomos">
 							<h2>Quem Somos</h2>
 						</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#acoes">
 							<h2>Ações</h2>
 						</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#faleConosco">
 							<h2>Fale Conosco</h2>
 						</a>
 					</li>
@@ -62,194 +62,228 @@
 
 	<div id="main">
 		<div class="container-fluid">
-			<div class="row p-3 shadow-lg">
-				<div class="col-12 col-xl-6">
-					<!--Carrosel -->
-					<div id="carrosselIndicadores" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#carrosselIndicadores" data-slide-to="0" class="active"></li>
-							<li data-target="#carrosselIndicadores" data-slide-to="1"></li>
-							<li data-target="#carrosselIndicadores" data-slide-to="2"></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block w-100 img-thumbnail" src="public/img/santaMaria1.jpg"
-									alt="Primeiro Slide">
-								<div class="carousel-caption">
-									<!--Descrição da Imagem-->
-									Primeira Imagem
+				<div class="row p-3 shadow-lg">
+					<section id="quemSomos"></section>
+					<div class="col-12 col-xl-6">
+						<!--Carrosel -->
+						<div id="carrosselIndicadores" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carrosselIndicadores" data-slide-to="0" class="active"></li>
+								<li data-target="#carrosselIndicadores" data-slide-to="1"></li>
+								<li data-target="#carrosselIndicadores" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100 img-thumbnail" src="public/img/santaMaria1.jpg"
+										alt="Primeiro Slide">
+									<div class="carousel-caption">
+										<!--Descrição da Imagem-->
+										Primeira Imagem
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100 img-thumbnail" src="public/img/santaMaria2.jpg"
+										alt="Segundo Slide">
+									<div class="carousel-caption">
+										Segunda Imagem
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100 img-thumbnail" src="public/img/santaMaria3.jpg"
+										alt="Terceiro Slide">
+									<div class="carousel-caption">
+										Terceira Imagem
+									</div>
 								</div>
 							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100 img-thumbnail" src="public/img/santaMaria2.jpg"
-									alt="Segundo Slide">
-								<div class="carousel-caption">
-									Segunda Imagem
-								</div>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100 img-thumbnail" src="public/img/santaMaria3.jpg"
-									alt="Terceiro Slide">
-								<div class="carousel-caption">
-									Terceira Imagem
-								</div>
-							</div>
+							<!-- Controles-->
+							<a class="carousel-control-prev" href="#carrosselIndicadores" role="button"
+								data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Anterior</span>
+							</a>
+							<a class="carousel-control-next" href="#carrosselIndicadores" role="button"
+								data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Próximo</span>
+							</a>
 						</div>
-						<!-- Controles-->
-						<a class="carousel-control-prev" href="#carrosselIndicadores" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Anterior</span>
-						</a>
-						<a class="carousel-control-next" href="#carrosselIndicadores" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Próximo</span>
-						</a>
 					</div>
+					<!--Mensagem ao lado do carrosel-->
+					<!-- <div class="col-md-7 col-xs-12"> -->
+					<div class="col-12 col-xl-6 text-justify">
+						<h1 class="text-center">Quem Somos</h1>
+						<p>Associação Beneficente e Cultural Santa Maria é uma organização que desenvolve
+							projetos de desenvolvimento social e humano, acolhimento de minorias e excluídos. Por
+							meios de ações de doações, apoio ao hemoce em campanhas de doação de sangue
+							realização de cursos, apoio psicológico e jurídico.
+						</p>
+						<!-- <p><a class="btn btn-primary" href="#" role="button">Leia Mais</a></p> -->
+					</div>
+				</section>
 				</div>
-				<!--Mensagem ao lado do carrosel-->
-				<!-- <div class="col-md-7 col-xs-12"> -->
-				<div class="col-12 col-xl-6 text-justify">
-					<h1 class="text-center">Quem Somos</h1>
-					<p>Associação Beneficente e Cultural Santa Maria é uma organização que desenvolve
-						projetos de desenvolvimento social e humano, acolhimento de minorias e excluídos. Por
-						meios de ações de doações, apoio ao hemoce em campanhas de doação de sangue
-						realização de cursos, apoio psicológico e jurídico.
-					</p>
-					<!-- <p><a class="btn btn-primary" href="#" role="button">Leia Mais</a></p> -->
-				</div>
-			</div>
 		</div>
 	</div>
 
 	<!--Div do meio-->
 	<div id="meio" class="bg-light">
 		<div class="container-fluid">
-			<div class="shadow-lg p-3 bg-white rounded">
-				<h1 class="text-center">Ações</h1>
-				<!--Usando Cards-->
-				<!-- 1° foto -->
-				<div class="row">
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoMaosDadas.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center"">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">Os projetos Mãos dadas e Psicoterapia oferecem atendimento psicológico acessível 
-									e de qualidade para pessoas em situação de vulnerabilidade, promovendo saúde mental e bem-estar 
-									na comunidade.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoPaoDaVida.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">O projeto Pão da Vida doa alimentos a famílias vulneráveis, combatendo a fome e promovendo uma alimentação adequada. 
-									A Escolinha de Futebol oferece treinamento gratuito a crianças carentes, promovendo inclusão social, desenvolvimento esportivo.</p>							
+			<section id="acoes">
+				<div class="shadow-lg p-3 bg-white rounded">
+					<h1 class="text-center">Ações</h1>
+					<!--Usando Cards-->
+					<!-- 1° foto -->
+					<div class="row">
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoMaosDadas.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center"">Associação Beneficente Cultural Santa Maria</h5>
+								<p class=" card-text text-justify">Os projetos Mãos dadas e Psicoterapia oferecem atendimento psicológico
+										acessível
+										e de qualidade para pessoas em situação de vulnerabilidade, promovendo saúde
+										mental
+										e bem-estar
+										na comunidade.</p>
 								</div>
-						</div>
-					</div>
-
-
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoAulasDeCapoeira.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">Os projetos oferecem aulas gratuitas de capoeira e violão, 
-									promovendo o desenvolvimento artístico, cultural e social de crianças e jovens da comunidade.</p>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoReisDaBola.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">O projeto Reis da Bola oferece aulas de futebol gratuitas para crianças e jovens, promovendo a 
-									inclusão social e o desenvolvimento esportivo. O projeto Carteirinha do Estudante auxilia na emissão de carteirinhas estudantis, 
-									garantindo o acesso a benefícios e descontos educacionais.</p>
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoPaoDaVida.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">O projeto Pão da Vida doa alimentos a famílias
+										vulneráveis, combatendo a fome e promovendo uma alimentação adequada.
+										A Escolinha de Futebol oferece treinamento gratuito a crianças carentes,
+										promovendo
+										inclusão social, desenvolvimento esportivo.</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoOficinaTeatro.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">Os projetos Cia, Teatro Luz, Nordeste e Ação e Sorriso de papel promovem grupos de teatro comunitário, 
-									incentivando a criatividade e o empoderamento por meio das artes cênicas, 
-									proporcionando oportunidades de expressão e desenvolvimento pessoal.</p>
+
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoAulasDeCapoeira.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">Os projetos oferecem aulas gratuitas de capoeira e
+										violão,
+										promovendo o desenvolvimento artístico, cultural e social de crianças e jovens
+										da
+										comunidade.</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoForcasAmadasVocePode.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">O projeto Forças Armadas Você Pode oferece aulas preparatórias gratuitas para ingresso na Marinha do Brasil, 
-									capacitando jovens e promovendo oportunidades de carreira e desenvolvimento pessoal. 
-									O MMVA promove o empoderamento feminino em Várzea Alegre, 
-									por meio de atividades educacionais, culturais e sociais.</p>
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoReisDaBola.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">O projeto Reis da Bola oferece aulas de futebol
+										gratuitas para crianças e jovens, promovendo a
+										inclusão social e o desenvolvimento esportivo. O projeto Carteirinha do
+										Estudante
+										auxilia na emissão de carteirinhas estudantis,
+										garantindo o acesso a benefícios e descontos educacionais.</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoGeraçãoDeEmprego.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">O projeto social Geração Emprego e Renda oferece capacitação profissional e oportunidades de trabalho para 
-									indivíduos em situação de vulnerabilidade, promovendo inclusão social e autonomia financeira. O serviço de Assessoria de Projetos auxilia organizações sociais na elaboração e gestão de projetos, 
-									visando o fortalecimento e o impacto positivo de suas iniciativas.</p>
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoOficinaTeatro.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">Os projetos Cia, Teatro Luz, Nordeste e Ação e
+										Sorriso
+										de papel promovem grupos de teatro comunitário,
+										incentivando a criatividade e o empoderamento por meio das artes cênicas,
+										proporcionando oportunidades de expressão e desenvolvimento pessoal.</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoConvivencia.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">O grupo de convivência Recriar promove atividades e interações sociais, fortalecendo vínculos e 
-									proporcionando apoio emocional para pessoas em vulnerabilidade, promovendo bem-estar e inclusão. O projeto Psicoterapia Social oferece atendimento psicológico acessível e de qualidade para a comunidade, 
-									visando o cuidado e a promoção da saúde mental.</p>
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoForcasAmadasVocePode.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">O projeto Forças Armadas Você Pode oferece aulas
+										preparatórias gratuitas para ingresso na Marinha do Brasil,
+										capacitando jovens e promovendo oportunidades de carreira e desenvolvimento
+										pessoal.
+										O MMVA promove o empoderamento feminino em Várzea Alegre,
+										por meio de atividades educacionais, culturais e sociais.</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-12 col-xl-4 mt-3 mb-3">
-						<div class="card border border-dark bg-light">
-							<img src="public/img/projetoAcessoJustica.png" class="img-thumbnail"
-								class="card-img-top rounded-pill">
-							<div class="card-body">
-								<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
-								<p class="card-text text-justify">O projeto social de Assessoria de Imprensa busca amplificar vozes de organizações sociais, 
-									promovendo visibilidade e conscientização sobre questões relevantes para a comunidade. O Projeto Acesso à Justiça oferece suporte jurídico gratuito, 
-									garantindo o acesso à justiça e promovendo a defesa dos direitos de grupos vulneráveis.</p>
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoGeraçãoDeEmprego.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">O projeto social Geração Emprego e Renda oferece
+										capacitação profissional e oportunidades de trabalho para
+										indivíduos em situação de vulnerabilidade, promovendo inclusão social e
+										autonomia
+										financeira. O serviço de Assessoria de Projetos auxilia organizações sociais na
+										elaboração e gestão de projetos,
+										visando o fortalecimento e o impacto positivo de suas iniciativas.</p>
+								</div>
 							</div>
 						</div>
-					</div>
 
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoConvivencia.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">O grupo de convivência Recriar promove atividades
+										e
+										interações sociais, fortalecendo vínculos e
+										proporcionando apoio emocional para pessoas em vulnerabilidade, promovendo
+										bem-estar
+										e inclusão. O projeto Psicoterapia Social oferece atendimento psicológico
+										acessível
+										e de qualidade para a comunidade,
+										visando o cuidado e a promoção da saúde mental.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-xl-4 mt-3 mb-3">
+							<div class="card border border-dark bg-light">
+								<img src="public/img/projetoAcessoJustica.png" class="img-thumbnail"
+									class="card-img-top rounded-pill">
+								<div class="card-body">
+									<h5 class="card-title text-center">Associação Beneficente Cultural Santa Maria</h5>
+									<p class="card-text text-justify">O projeto social de Assessoria de Imprensa busca
+										amplificar vozes de organizações sociais,
+										promovendo visibilidade e conscientização sobre questões relevantes para a
+										comunidade. O Projeto Acesso à Justiça oferece suporte jurídico gratuito,
+										garantindo o acesso à justiça e promovendo a defesa dos direitos de grupos
+										vulneráveis.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
 
 				</div>
-
-			</div>
+			</section>
 		</div>
 	</div>
 
@@ -276,7 +310,7 @@
 						</div>
 
 						<div class="col-12 col-xl-3 border border-secondary mt-3 mb-3">
-							<a href="https://api.whatsapp.com/send?phone=5588992060136"> 
+							<a href="https://api.whatsapp.com/send?phone=5588992060136">
 								<i class="bi bi-whatsapp">
 									<svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" fill="currentColor"
 										class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -306,7 +340,7 @@
 					<div class="row text-center m-auto">
 						<div class="col-12 col-xl-3 border border-secondary mt-3 mb-3">
 							<a href="tel:+5588992060136">
-								<i class="bi bi-telephone"> 
+								<i class="bi bi-telephone">
 									<svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" fill="currentColor"
 										class="bi bi-telephone" viewBox="0 0 16 16">
 										<path
@@ -358,9 +392,9 @@
 					<a href="#" class="col-sm-3"><img width="90px" src="public/img/logo.jpg"
 							class="rounded float-left"></a>
 				</div>
-				<div class="col" style="margin-top:23px"><a href="#" class="text-right">Quem Somos</a></div>
-				<div class="col" style="margin-top:23px"><a href="#" class="text-right">Ações</a></div>
-				<div class="col" style="margin-top:23px"><a href="#" class="text-right">Fale Conosco</a></div>
+				<div class="col" style="margin-top:23px"><a href="#quemSomos" class="text-right">Quem Somos</a></div>
+				<div class="col" style="margin-top:23px"><a href="#acoes" class="text-right">Ações</a></div>
+				<div class="col" style="margin-top:23px"><a href="#faleConosco" class="text-right">Fale Conosco</a></div>
 			</div>
 
 			<div class="row">
